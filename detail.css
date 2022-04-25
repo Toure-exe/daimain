@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+header{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul{
+  position: relative;
+  display: flex;
+}
+header nav ul li{
+  list-style: none;
+}
+header nav ul li a{
+  display: inline-block;
+  padding: 8px 20px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+header ul li a:hover{
+  color: #fff;
+  background: #3D6763;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.motduPorteur{
+	font-size: 20px;
+	text-align: justify;
+}
+.titreEvi{
+  border-bottom: 3px solid #000;
+}
+.capIni::first-letter{
+  text-transform: uppercase;
+}
+.row .col .participation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0;
+
+}
+.row .col .participation a{
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	background: #3D6763;
+	text-decoration: none;
+	color: #fff;
+}
+.boldText{
+  font-weight: 1000;
+  font-size: 3rem;
+}
+.boldText2{
+  font-size: 2rem;
+}
+.boldText3{
+  font-size: 24px;
+  font-weight: 700;
+}
+.firstPartOfFooter{
+  background-color: #3A6762;
+  color: #fff;
+}
+.firstPartOfFooter span{
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.firstPartOfFooter a{
+  text-decoration: none;
+  color: #fff;
+}
+.footerContent{
+  padding-top: 25px;
+  background: #7D978C;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.footerContent2{
+
+
+  background: #33645E;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.nameStyled{
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+}
